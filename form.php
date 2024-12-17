@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -28,7 +27,7 @@
       <label for="validationServerUsername" class="form-label">ที่อยู่</label>
       <div class="input-group has-validation">
         <span class="input-group-text" id="inputGroupPrepend3">บ้านเลขที่/ หมู่ที่</span>
-        <input type="text" class="form-control" id="validationServerUsername" aria-describedby="inputGroupPrepend3" required name="username">
+        <input type="text" class="form-control" id="validationServerUsername" aria-describedby="inputGroupPrepend3" required name="address">
         <div class="invalid-feedback">
           Please choose a username.
         </div>
@@ -175,14 +174,14 @@
 <h1>ผู้รับ</h1>
   <div class="col-md-4">
     <label for="validationServer01" class="form-label">ชื่อ</label>
-    <input type="text" class="form-control" id="validationServer01" required name="firstname1">
+    <input type="text" class="form-control" id="validationServer01" required name="firstname_1">
     <div class="invalid-feedback">
       Please provide a valid first name.
     </div>
   </div>
   <div class="col-md-4">
     <label for="validationServer02" class="form-label">นามสกุล</label>
-    <input type="text" class="form-control" id="validationServer02" required name="lastname1">
+    <input type="text" class="form-control" id="validationServer02" required name="lastname_1">
     <div class="invalid-feedback">
       Please provide a valid last name.
     </div>
@@ -191,7 +190,7 @@
     <label for="validationServerUsername" class="form-label">ที่อยู่</label>
     <div class="input-group has-validation">
       <span class="input-group-text" id="inputGroupPrepend3">บ้านเลขที่/ หมู่ที่</span>
-      <input type="text" class="form-control" id="validationServerUsername" aria-describedby="inputGroupPrepend3" required name="username1">
+      <input type="text" class="form-control" id="validationServerUsername" aria-describedby="inputGroupPrepend3" required name="address">
       <div class="invalid-feedback">
         Please choose a username.
       </div>
@@ -199,7 +198,7 @@
   </div>
   <div class="col-md-3">
     <label for="inputState" class="form-label">แขวง/ตำบล</label>
-    <select id="inputState" class="form-select" required name="district1">
+    <select id="inputState" class="form-select" required name="district_1">
       <option selected disabled value="">โปรดเลือก</option>
       <option>เทศบาลเมืองสมุทรสงคราม </option>
       <option>เทศบาลตำบลบางจะเกร็ง </option>
@@ -218,7 +217,7 @@
   </div>
   <div class="col-md-3">
     <label for="inputState" class="form-label">อำเภอ/เมือง</label>
-    <select id="inputState" class="form-select" required  name="city1">
+    <select id="inputState" class="form-select" required  name="city_1">
       <option selected disabled value="">โปรดเลือก</option>
       <option>อัมพวา</option>
       <option>อำเภอเมือง</option>
@@ -230,7 +229,7 @@
   </div>
   <div class="col-md-3">
     <label for="inputState" class="form-label">จังหวัด</label>
-    <select id="inputState" class="form-select" required name="province1">
+    <select id="inputState" class="form-select" required name="province_1">
       <option selected disabled value="">โปรดเลือก</option>
       <option>กรุงเทพมหานคร</option>
       <option>กระบี่</option>
@@ -316,18 +315,18 @@
   </div>
   <div class="col-md-2">
     <label for="inputZip" class="form-label">เบอร์โทรศัพท์</label>
-    <input type="text" class="form-control" id="inputZip" required  name="number1">
+    <input type="text" class="form-control" id="inputZip" required  name="number_1">
   </div>
   <div class="col-md-3">
     <label for="validationServer05" class="form-label">รหัสไปรษณีย์</label>
-    <input type="text" class="form-control" id="validationServer05" required name="postalcode1">
+    <input type="text" class="form-control" id="validationServer05" required name="postalcode_1">
     <div class="invalid-feedback">
       Please provide a valid zip.
     </div>
   </div>
   <div class="col-md-4">
     <label for="validationCustom02" class="form-label">วันที่</label>
-    <input type="date" class="form-control" id="validationCustom02"  required name="date1">
+    <input type="date" class="form-control" id="validationCustom02"  required name="date_1">
     <div class="valid-feedback">
         Looks good!
       </div>
@@ -347,7 +346,7 @@
     </div>
   </div>
   <div class="col-12">
-    <button class="btn btn-primary" type="submit">ยืนยัน</button>
+    <button class="btn btn-primary" type="summit" name="summit">ยืนยัน</button>
   </div>
 </form>
 <script>
